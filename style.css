@@ -1,0 +1,28 @@
+
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+main {
+    max-width: 400px;
+    background-color: #a1ded8;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.15);
+    padding: 2rem;
+}
+th, td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+    min-width: 8rem;
+}
+thead {
+    background-color: #eeeeee;
+}
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
